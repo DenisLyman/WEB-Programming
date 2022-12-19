@@ -1,23 +1,43 @@
-body {
-    background-color: #5F9EA0
+nav {
+    margin: 0 auto;
+    width: 400px;
+    height: 50px;
+    background-color: red;
 }
 
-button {
-    width: 60px;
+aside {
+    width: 20%;
+    height: 300px;
+    background-color: gray;
+    float: left;
+}
+
+main {
+    width: 80%;
+    height: 300px;
+    background-color: lime;
+    float: right;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkorchid;
+    
 }
 
 h1 {
-    color: #9932CC;
+    text-align: center;
+    text-transform: lowercase;
+    margin: auto;
 }
 
-p {
-    font-size: 20pt;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-td, th {
-    border: 1px solid black;
+#as_main {
+    height: 250px;
 }
