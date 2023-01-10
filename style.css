@@ -1,43 +1,33 @@
-nav {
-    margin: 0 auto;
-    width: 400px;
-    height: 50px;
-    background-color: red;
+h1, h1, span {
+    color: red;
 }
 
-aside {
-    width: 20%;
-    height: 300px;
-    background-color: gray;
-    float: left;
+div p {
+    font-weight: 600;
 }
 
-main {
-    width: 80%;
-    height: 300px;
+ul li>span {
+    font-style: none;
+}
+
+h3 ~ h4 {
+    color: aqua;
+}
+
+.block {
     background-color: lime;
-    float: right;
+    text-align: top;
+    margin: left;
+    padding: 25px;
+    width: fit-content;
 }
 
-header {
-    width: 100%;
-    height: 100px;
-    background-color: aquamarine;
+.block#num2 {
+    background-color: aqua;
+    border-radius: 50px;
 }
 
-footer {
-    width: 100%;
-    height: 100px;
-    background-color: darkorchid;
-    
-}
-
-h1 {
-    text-align: center;
-    text-transform: lowercase;
-    margin: auto;
-}
-
-#as_main {
-    height: 250px;
+.block#num3, #num4 {
+    background-color: aqua;
+    border: 4px solid blue;
 }
