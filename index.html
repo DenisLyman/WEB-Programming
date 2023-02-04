@@ -3,61 +3,123 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Web-site</title>
     <link rel="stylesheet" href="style.css">
-	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
+	<div class="start">
+		<div class="container">
+		</div>
+	</div>
 
-	<!-- 1 завдання -->
-	<h1>Заголовок1</h1>
-	<h2>Заголовок2</h2>
-	<p>Задання стилю <span>окремої ділянки</span> тексту </p>
+	<header class="header">
+		
+		<div class="container">
 
-	<hr>
+			<div class="header_inner">
 
-	<!-- 2 завдання -->
-	 <div>
-	 	<p>Paragraph1</p>
-	 </div>
-	 	<p>Paragraph2</p>
+				<div class="logo">
+					<img src="Background.png" alt="err">
+				</div>
 
-	 <hr>
+				<nav class="nav">
+					<a class = "navLink" href="#Home">Головна</a>
+					<a class = "navLink" href="#Services">Послуги</a>
+					<a class = "navLink" href="#About">Про компанію</a>
+					<a class = "navLink" href="#Contacts">Контакти</a>
+				</nav>
 
-	<!-- 3 завдання -->
+			</div>
 
-	<ul>
-		<li>
-			<p><span>Span1</span></p>
-		</li>
-		<li>
-			<span>Span2</span>
-		</li>
-	</ul>
+		</div>
 
-	<hr>
+	</header>
+	
+	<main id="Home">
+		<div class="message">
+			<p>Робота з коштами - це просто!</p>
+			<button id="btn1">Деталі</button>
+			<button id="btn2">Обрати послугу</button>
+		</div>
+	</main>
 
-	<!-- 4 завдання -->
+	<div id="srv" class="services">
+		
+		<div class="block">
+			<div class="block-img">
+				<img src="https://informburo.kz/storage/photos/139/main/EgI53ODRxW7fdn2RoSTuz0q6pVhFxMUBCobV17Qb.jpg" alt="">
+			</div>
+			<div class="block-text">
+				<h2>Можливість користування картою не маючи її фізичної копії
+</h2>
+				<p class="price">Послуга безкоштовна</p>
+				<p class="cont">Після авторизаціії ви зможете відразу користуватися послугами банку за допомогою телефону, не маючи фізичної копії картки.</p>
+			</div>
+		</div>
 
-	<ol>
-		<li>Li1</li>
-		<li>Li2</li>
-		<li>Li3</li>
-		<li>Li4</li>
-	</ol>
+		<div class="block">
+			<div class="block-img">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy_kA_-ZZ9D9oNfZ829B1G52q07wVTxQC2EOJi1R_gGqRcQKlvgBoRWQ9Ies6SSUM91Y&usqp=CAU" alt="">
+			</div>
+			<div class="block-text">
+				<h2>Network Adminstration</h2>
+				<p class="price">$100/hour</p>
+				<p class="cont">Наша команда володіє всіма аспектами навичок інтерфейсу та серверної частини, необхідних для створення веб-сайтів, включаючи адаптивний веб-дизайн і технології з відкритим кодом. Крім технічної експертизи, наша команда володіє знаннями в ключових сферах, які роблять ваш новий веб-сайт успішним, включаючи SEO, взаємодію з користувачем (UX) і оптимізацію коефіцієнта конверсії (CRO).</p>
+			</div>
+		</div>
+
+	
+		<div class="block">
+			<div class="block-img">
+				<img src="image/s2.jpg" alt="">
+			</div>
+			<div class="block-text">
+				<h2>Linux Adminstration</h2>
+				<p class="price">$120</p>
+				<p class="cont">аша команда професіоналів спеціалізується на створенні та налаштуванні серверів Linux для малих і великих підприємств, забезпечуючи найкращий доступний захист. У тому числі підтримка мережі, підтримка електронної пошти, конфігурація домену/DNS, брандмауер, проксі-сервери та багато іншого.</p>
+			</div>
+			
+
+		</div>
+		
+		<div class="block">
+			<div class="block-img">
+				<img src="image/s4.jpg" alt="">
+			</div>
+			<div class="block-text">
+				<h2>Content strategy</h2>
+				<p class="price">$440/hour</p>
+				<p class="cont">Наша команда дослідить ваш бізнес/нішу, щоб сформувати стратегію для забезпечення найкращих результатів, а також запровадить пошукову оптимізацію на місці, щоб збільшити результати пошуку Google/пошукової системи за цільовими ключовими словами.</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="block-img">
+				<img src="image/s5.jpg" alt="">
+			</div>
+			<div class="block-text">
+				<h2>Data Backup and Restoration or BDR strategy</h2>
+				<p class="price">$150/hour</p>
+				<p class="cont">Резервне копіювання передбачає збереження інформації на випадок непередбачених проблем, таких як стихійне лихо, зловмисне вторгнення, апаратний збій тощо. Деякі компанії називають це «стратегією BDR» (резервне аварійне відновлення). Для більшості організацій наявність певної форми резервного копіювання є обов’язковою, щоб запобігти таким проблемам, як простої та втрата важливої інформації.</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="block-img">
+				<img src="image/s6.jpg" alt="">
+			</div>
+			<div class="block-text">
+				<h2>IT Consulting</h2>
+				<p class="price">$150/hour</p>
+				<p class="cont">Наші ІТ-консультанти надають клієнтам рекомендації щодо всього, починаючи від загальної ІТ-стратегії, включаючи те, що розмістити в центрі обробки даних, а не в хмарі; до типу технологій і функцій, необхідних у контексті ІТ-середовища та бізнес-середовища та цілей замовника, наприклад автоматизація процесів або мобільна безпека.</p>
+			</div>
+		</div>
 
 
-	<h3>Заголовок3</h3>
-	<h4>Заголовок4</h4>
-	<h5>Заголовок5</h5>
-	<h6>Заголовок6</h6>	
+	</div>
 
-	<hr>
-
-	<!-- 5 завдання САМОСТІЙНО -->
-    <p class="block" id="num1">Блок1</p>
-    <p class="block" id="num2">Блок2</p>
-    <p class="block" id="num3">Блок3</p>
-    <p class="block" id="num4">Блок4</p>
+	<script>
+		AOS.init();
+	</script>
 </body>
 </html>
