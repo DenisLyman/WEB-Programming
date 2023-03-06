@@ -18,29 +18,35 @@ h1, h2, h3, h4, h5, h6 {
 .container {
     width: 100%;
     margin: 0 auto;
+	position: absolute;
 }
 
-.start {
+main {
     width: 100%;
     height: 100vh;
     background: url(https://cdn.dribbble.com/users/1573719/screenshots/18081584/402_4x.png);
     background-position: center;
     background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	background-position: center;
+	background-size: 100%;
+}
+div>.logo{
+	height: 60px;
+	width: 60px;
+	
 }
 
-.logo {
-
-    width: 40px;
-    height: 40px;
-}
-
-.header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    padding-top: 30px;
+header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: #fec200;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 283;
 }
 
 .nav {
@@ -84,15 +90,22 @@ a{
 }
 
 .message>p {
-	font-size: 45pt;
+	font-size: 42pt;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
+	font-weight: 800;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.message>button {
+	margin-top: 0px;
 }
 
 button {
 	width: 150px;
-	height: 40px;
-	margin: 20px;
+	height: 50px;
+	margin: 25px;
+	margin-top: 20px;
 }
 
 #btn1, #btn2 {
@@ -127,17 +140,13 @@ button {
 	
 }
 
-.block {
-	
-	
+.block {	
 	height: 250px;
 	border-radius: 15px;
 	background-color: white;
 	display: flex;
 	justify-self: center;
-	
-	
-	
+		
 }
 .price {
 	font-weight: 600;
